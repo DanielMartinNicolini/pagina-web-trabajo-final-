@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.logo {
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    
+
+
+}
+
+
+.logo-nombre {
+
+    margin-right: 100px;
+    margin-top: 40px;
+    
+
+    
+}
+
+.logo img {
+    height: 80px;
+    margin-left: 30px;
+    
+}
+
+
+.menu {
+    background-color: rgb(247, 202, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+.tipografia { 
+
+font-size: 20px;
+margin-right: 400px;
+}
+
+a{
+   
+ text-decoration: none;
+ color: black;
+ font-weight: 900;
+ text-transform: uppercase;
+ cursor: pointer;
+
+}
+
+.hero {
+   background-color:  rgb(247, 202, 247);
+   height: 80vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+
+
+}
+
+img  {
+
+width: 250px;
+
+
+
+
+}
+
+
+
+.logotipo {
+
+    border: 1px solid #800080;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.tamaño {
+  text-align: center;
+
+
+}
+
+.margenes {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+
+
+}
+
+
+
+
+.descripcion h1 {
+  
+font-size: 40px;
+margin-bottom: 20px;
+
+
+}
+
+button {
+    background-color: rgb(230, 26, 230);
+    cursor: pointer;
+    display: flex;
+    padding: 16px;
+    border: none;
+    font-size: 18px;
+    color: rgb(253, 247, 247);
+    font-weight: 900;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+.cambios {
+     height: 40vh;
+     margin-top: 20px;
+     margin-left: 80px;
+     margin-right: 80px;
+     margin-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+}
+
+
+h2 {
+ margin-bottom: 40px;
+
+
+}
+
+p {
+
+margin-bottom: 20px;
+
+}
+
+.container {
+width: 300px;
+margin-left: 20px;
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+
+
+.conjunto {
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 20px;
+}
+
+
+.card {
+   color: white;
+   border: 1px solid rgb(253, 247, 247);
+   border-radius: 6px;
+   overflow: hidden;
+   background: violet;
+   box-shadow: 0px  1px  10px  rgb(230, 26, 230);
+   cursor: default;
+   transition: all;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
+
+.color {
+background-color:rgb(197, 13, 197);
+
+
+}
+
+.titulosecundario {
+
+color: white;
+padding-top: 40px;
+padding-left: 80px;
+
+
+}
+
+.titulosecundario2  {
+
+    padding-top: 40px;
+    padding-left: 80px;
+
+
+}
+
+
+.left,
+.right {
+
+
+width: 30px;
+height: 30px;
+transition: 0.5s;
+float: left;
+box-shadow: -2px  2px  0  rgba(255, 255, 255,.5 );
+cursor: pointer;
+
+}
+
+.left {
+    transform: rotate(45deg);
+}
+
+.right {
+transform: rotate(225deg);
+
+}
+
+.left: :hover,
+.right: :hover {
+    box-shadow: -2px  2px  0  rgba(255, 255, 255, 1 );
+}
