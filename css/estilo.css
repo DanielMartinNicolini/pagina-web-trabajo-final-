@@ -9,21 +9,26 @@
   
     display: flex;
     align-items: center;
-    justify-content: flex-start ;
-    
-
+    justify-content: center ;
+    width: 600px;
 
 }
 
 
-.logo-nombre {
+.logo h2 {
 
-    margin-right: 100px;
+    margin-right: 200px;
     margin-top: 40px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    
+    
     
 
     
 }
+
 
 .logo img {
     height: 80px;
@@ -35,6 +40,7 @@
 .menu {
     background-color: rgb(247, 202, 247);
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     
@@ -75,7 +81,7 @@ a{
    display: flex;
    justify-content: space-around;
    align-items: center;
-
+   
 
 
 }
@@ -139,16 +145,34 @@ button {
     background-color: rgb(230, 26, 230);
     cursor: pointer;
     display: flex;
-    padding: 16px;
+    padding: 16px 10px;
     border: none;
     font-size: 18px;
     color: rgb(253, 247, 247);
+    position: relative;
     font-weight: 900;
     border-radius: 12px;
     margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
 }
+
+.link {
+
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+
+button :hover {
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
 
 
 .cambios {
@@ -190,7 +214,7 @@ justify-content: space-between;
 display: flex;
 justify-content: space-around;
 align-items: center;
-margin-bottom: 20px;
+padding-bottom: 40px;
 }
 
 
@@ -202,11 +226,20 @@ margin-bottom: 20px;
    background: violet;
    box-shadow: 0px  1px  10px  rgb(230, 26, 230);
    cursor: default;
-   transition: all;
+   transition: all 400ms ease;
    padding-left: 20px;
    padding-top: 20px;
    padding-right: 20px;
    padding-bottom: 20px;
+}
+
+
+.card:hover {
+
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    translate: translateY(-3%);
+
+
 }
 
 .color {
@@ -258,4 +291,116 @@ transform: rotate(225deg);
 .left: :hover,
 .right: :hover {
     box-shadow: -2px  2px  0  rgba(255, 255, 255, 1 );
+    
 }
+
+
+
+footer {
+
+background-color: #750575;
+height: 40vh;
+padding-left: 60px;
+padding-top: 40px;
+
+
+
+
+
+
+
+}
+
+.consulta {
+ color: white;
+
+
+}
+
+ i {
+ 
+    font-size: 30px;
+
+
+}
+
+
+.bi.bi-behance {
+
+    color: white;
+    background-color: #053EFF;
+    border-radius: 6px;
+    width: 30px;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+ 
+
+.gmail {
+
+    width: 30px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 6px;
+    transition: opacity 0.3s ease-in-out;
+
+
+}
+
+.instagram {
+
+    width: 30px;
+    border-radius: 6px;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.linkedin {
+
+    width: 30px;
+    border-radius: 6px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.iconos {
+
+    
+    padding-top: 30px;
+    
+    display: flex;
+
+    align-items: center;
+
+    gap: 40px;
+    
+
+
+
+}
+
+
+.gmail:hover {
+
+    opacity: 0.5; 
+}
+
+.instagram:hover {
+ 
+    opacity: 0.5;
+}
+
+
+
+
+.bi.bi-behance:hover {
+
+opacity: 0.5;
+ 
+}
+
+.linkedin:hover {
+
+opacity: 0.5;
+}
+
