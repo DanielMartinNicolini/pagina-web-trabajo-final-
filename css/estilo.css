@@ -166,7 +166,7 @@ button {
 
 }
 
-
+/* modificacion especial del boton cuando lo tocas sobre ella */
 button :hover {
     color: black;
     transform: scale(1.1);
@@ -402,5 +402,12 @@ opacity: 0.5;
 .linkedin:hover {
 
 opacity: 0.5;
+}
+
+.parrafo {
+
+    padding-top: 70px;
+
+
 }
 
