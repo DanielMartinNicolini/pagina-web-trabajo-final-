@@ -59,11 +59,7 @@
 
 
 
-.tipografia { 
 
-font-size: 20px;
-margin-right: 400px;
-}
 
 /* se saco la decoracion de los link, se aumento el tamaño de la letra y se dejo en mayusculas. Tambien
 se le agrego un cursor en el momento en el que mouse esté sobre el cursor */
@@ -148,6 +144,13 @@ margin-bottom: 20px;
 
 }
 
+.descripcion p {
+ 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 button {
     background-color: rgb(230, 26, 230);
     cursor: pointer;
@@ -196,6 +199,12 @@ button :hover {
      flex-direction: column;
 }
 
+.dimension {
+
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
 
 h2 {
  margin-bottom: 40px;
@@ -340,9 +349,11 @@ padding-top: 40px;
 
 .consulta {
  color: white;
+ 
 
 
 }
+
 
  i {
  
