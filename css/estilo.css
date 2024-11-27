@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center ;
-    width: 600px;
+    width: 700px;
 
 }
 
@@ -40,7 +40,7 @@
 .menu {
     background-color: rgb(247, 202, 247);
     display: flex;
-
+    padding-left: 30px;
     justify-content: space-between;
     align-items: center;
     
@@ -65,6 +65,8 @@ font-size: 20px;
 margin-right: 400px;
 }
 
+/* se saco la decoracion de los link, se aumento el tamaño de la letra y se dejo en mayusculas. Tambien
+se le agrego un cursor en el momento en el que mouse esté sobre el cursor */
 a{
    
  text-decoration: none;
@@ -95,7 +97,10 @@ width: 250px;
 
 }
 
-
+/* Se utilizo la etiqueta figure para almacenar una imagen en su interior, la cual se estuvo
+haciendo cambios en las imagenes como agregando un borde y luego redondear sus esquina.
+También se establecio el ancho del elemento y agregando margenes que establecen el espacio
+entre los elementos. Tambien un padding que establece el espacio entre el elemento y el borde */
 
 .logotipo {
 
@@ -107,8 +112,10 @@ width: 250px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-
+    cursor: pointer;
 }
+
+
 
 
 .tamaño {
@@ -152,6 +159,7 @@ button {
     position: relative;
     font-weight: 900;
     border-radius: 12px;
+    margin-left: 10px;
     margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -166,13 +174,16 @@ button {
 
 }
 
-/* modificacion especial del boton cuando lo tocas sobre ella */
+/* modificacion especial del boton cuando lo tocas sobre ella haya una transicion en 5 segundos */
 button :hover {
     color: black;
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
+
+
+/*se hizo cambios en la segunda seccion con una altura del 40 por ciento. Se uso margenes tambien*/
 
 
 .cambios {
@@ -199,14 +210,14 @@ margin-bottom: 20px;
 }
 
 .container {
-width: 300px;
-margin-left: 20px;
-margin-bottom: 20px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
-
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
 
 
 
@@ -216,6 +227,7 @@ justify-content: space-around;
 align-items: center;
 padding-bottom: 40px;
 }
+
 
 
 .card {
@@ -234,6 +246,9 @@ padding-bottom: 40px;
 }
 
 
+/*se hizo un efecto visual sobre las figuras o tarjetas cuando se coloque el cursor por
+encima de ellas. Se tralado verticalmente, la cual cuando  se pase el cursor por encima 
+de las tarjetas se traslada a 3% hacia arriba */
 .card:hover {
 
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
@@ -242,11 +257,14 @@ padding-bottom: 40px;
 
 }
 
+/*se uso una clase para modificar la ultima seccion agregando otro color de fondo distinnto a las demas*/
 .color {
 background-color:rgb(197, 13, 197);
 
 
 }
+
+/*Se uso un class para hacer pequeñas modificaciones en el titulo secundario de "conocimiento"*/
 
 .titulosecundario {
 
@@ -257,6 +275,7 @@ padding-left: 80px;
 
 }
 
+/*Se uso un class para hacer pequeñas modificaciones en el titulo secundario de "conocimiento"*/
 .titulosecundario2  {
 
     padding-top: 40px;
@@ -266,30 +285,38 @@ padding-left: 80px;
 }
 
 
+
+/*se definio las flechas con una transicion entre dos estados de los elementos durando 5 segundos
+la transicion.*/
 .left,
 .right {
 
 
 width: 30px;
 height: 30px;
-transition: 0.5s;
+transition: 0.5s; 
 float: left;
 box-shadow: -2px  2px  0  rgba(255, 255, 255,.5 );
 cursor: pointer;
 
+
 }
 
+
+/*Se aplico una rotacion de 45 grados al elemento, girando 45 grados alrededor de su elemento*/
 .left {
     transform: rotate(45deg);
+
 }
 
+/*Se aplico una rotacion de 225 grados al elemento*/
 .right {
 transform: rotate(225deg);
 
 }
 
-.left: :hover,
-.right: :hover {
+.left :hover,
+.right :hover {
     box-shadow: -2px  2px  0  rgba(255, 255, 255, 1 );
     
 }
@@ -378,6 +405,11 @@ padding-top: 40px;
 
 
 }
+
+
+/*Se agrego en todos los iconos o imagenes una opacidad del 50%, es decir sera parcialmente
+transparente al momento de tocar con el cursor los logos*/
+
 
 
 .gmail:hover {
